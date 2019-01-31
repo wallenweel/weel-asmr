@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn ext build",
+    "watch": "yarn ext run",
+    "lint": "yarn ext lint",
     "ext": "web-ext --config=.web-ext-config.js"
   },
   "repository": {
