@@ -1,0 +1,19 @@
+{
+  "name": "weel-asmr",
+  "version": "0.0.1",
+  "description": "Aria2 Server by [grease|tamper]Monkey Requesting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallenweel/weel-asmr.git"
+  },
+  "author": "wallen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wallenweel/weel-asmr/issues"
+  },
+  "homepage": "https://github.com/wallenweel/weel-asmr#readme"
+}
