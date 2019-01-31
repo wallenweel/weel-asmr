@@ -1,7 +1,7 @@
 {
   "name": "weel-asmr",
-  "version": "0.0.1",
-  "description": "Aria2 Server by [grease|tamper]Monkey Requesting.",
+  "version": "0.0.2",
+  "description": "Foward requests that from page script to aria2 client",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
