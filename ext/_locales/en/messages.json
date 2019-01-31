@@ -1,0 +1,13 @@
+{
+  "EXTENSION_NAME": {
+    "message": "Weel - Aria2 Script Message Retransmission"
+  },
+
+  "EXTENSION_SHORT_NAME": {
+    "message": "Weel ASMR"
+  },
+
+  "EXTENSION_DESCRIPTION": {
+    "message": "Forward request message to Aria2"
+  }
+}

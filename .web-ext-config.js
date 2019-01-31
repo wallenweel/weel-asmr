@@ -1,9 +1,7 @@
-const isAmo = process.env.TARGET_PLATFORM === 'amo';
-
 module.exports = {
   verbose: false,
-  sourceDir: 'dist/firefox',
-  artifactsDir: `web-ext-artifacts${isAmo ? '/amo' : ''}`,
+  sourceDir: 'ext',
+  artifactsDir: `web-ext-artifacts`,
   run: {
     keepProfileChanges: true,
     firefoxProfile: './web-ext-profile',

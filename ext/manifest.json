@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_EXTENSION_NAME__",
+  "short_name": "__MSG_EXTENSION_SHORT_NAME__",
+  "description": "__MSG_EXTENSION_DESCRIPTION__",
+  "version": "0.0.1",
+
+  "homepage_url": "https://github.com/wallenweel/weel-asmr",
+
+  "developer": {
+    "name": "Wallen Weel",
+    "url": "https://github.com/wallenweel/weel-asmr"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "@weel-asmr"
+    }
+  },
+
+  "default_locale": "en",
+
+  "icons": {
+    "24": "img/icon.svg"
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "storage",
+    "tabs",
+    "clipboardRead",
+    "contextMenus"
+  ],
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "match_about_blank": false,
+    "all_frames": false,
+    "js": [
+      "content.js"
+    ],
+    "run_at": "document_start"
+  }]
+}
