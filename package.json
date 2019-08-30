@@ -1,6 +1,6 @@
 {
   "name": "weel-asmr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Foward requests that from page script to aria2 client",
   "main": "index.js",
   "scripts": {
