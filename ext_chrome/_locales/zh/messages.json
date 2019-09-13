@@ -1,0 +1,13 @@
+{
+  "EXTENSION_NAME": {
+    "message": "Weel - Aria2 服务消息转发"
+  },
+
+  "EXTENSION_SHORT_NAME": {
+    "message": "Weel ASMR"
+  },
+
+  "EXTENSION_DESCRIPTION": {
+    "message": "通过页面脚本把下载请求转发给 Aria2 客户端"
+  }
+}
